@@ -1,6 +1,6 @@
 function drawTriangle() {
 
-  		var canvas = document.getElementById('canvas');
+  		var canvas = document.getElementById('canvas1');
   		canvas.width = document.documentElement.offsetWidth
   		canvas.height = document.documentElement.offsetHeight
 
