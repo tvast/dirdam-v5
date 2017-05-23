@@ -1,0 +1,3 @@
+App ID	1791
+API Key	Um70Gtf3pDOxV2dsEaSTH6
+API Secret	OFxjaiCfQKNDvtVZoYsLWg6A5hMIpe7r

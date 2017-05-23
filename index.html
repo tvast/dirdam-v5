@@ -1,0 +1,41 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Elihpoeht - music</title>
+  <link rel="stylesheet" href="styles.css" media="all">
+  <link rel="stylesheet" href="materialize/css/materialize.css" media="all">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+</head>
+<body>
+  <canvas id="myCanvas"></canvas>
+  <div class="centered">
+    <a href="dirdamprojectelipoeht-EP-V3/index.html" class="waves-effect waves-light btn black">enter</a>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="control.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="materialize/js/materialize.js"></script>
+  <!-- modal -->
+  <script type="text/javascript">
+    $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+  });
+</script>
+<!-- kaleidoscope -->
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".kal_cont").each(function(i){ 
+      $(this).mousemove(function(e) {
+        $(this).find(".ksc").each(function(i){ 
+          $(this).css({backgroundPosition: e.pageX+"px "+e.pageY+"px"});
+        });
+      });
+    });
+  });</script>
+</body>
+</html>
