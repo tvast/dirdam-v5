@@ -140,3 +140,41 @@ context.addEventListener("click", function(){
 
     });
 
+//play 
+
+  document.getElementById("play3").addEventListener("click", function(){
+    document.getElementById("player3").play();
+    console.log("hello")
+
+
+  });
+
+//pause 3
+
+    document.getElementById("pause3").addEventListener("click", function(){
+      document.getElementById("player3").pause();
+
+
+    });
+//play 
+
+  document.getElementById("play4").addEventListener("click", function(){
+    document.getElementById("player4").play();
+    console.log("hello")
+
+
+  });
+
+//pause 3
+
+    document.getElementById("pause4").addEventListener("click", function(){
+      document.getElementById("player4").pause();
+
+
+    });
+
+    addEventListener("click", function(){
+   
+
+    });
+
